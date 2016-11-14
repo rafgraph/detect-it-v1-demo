@@ -17,6 +17,13 @@ function App() {
 
   return (
     <div style={styles.app}>
+      <div style={styles.versionNote}>
+        Note: this is the live test for{' '}
+        <a href="https://github.com/rafrex/detect-it/tree/v1.1.0">Detect It v1</a>,{' '}
+        which includes Pointer Events, if you don't need Pointer Events detection, use the{' '}
+        <a href="https://github.com/rafrex/detect-it">latest version of Detect It</a>.
+      </div>
+
       <h1 id="detect-it" style={styles.h1}>Detect It &#8212; Live Detection Test</h1>
       <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-it/tree/v1.1.0" target="_blank">https://github.com/rafrex/detect-it/tree/v1.1.0</a></div>
       <div style={styles.code}>

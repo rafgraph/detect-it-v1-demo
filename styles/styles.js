@@ -5,6 +5,9 @@ export default {
     padding: '10px 15px 25px',
     margin: '0 auto',
   },
+  versionNote: {
+    marginBottom: '10px',
+  },
   h1: {
     marginBottom: '-1px',
     fontSize: '24px',
