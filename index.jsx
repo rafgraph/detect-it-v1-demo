@@ -18,7 +18,7 @@ function App() {
   return (
     <div style={styles.app}>
       <h1 id="detect-it" style={styles.h1}>Detect It &#8212; Live Detection Test</h1>
-      <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-it" target="_blank">https://github.com/rafrex/detect-it</a></div>
+      <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-it/tree/v1.1.0" target="_blank">https://github.com/rafrex/detect-it/tree/v1.1.0</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('deviceType')}
