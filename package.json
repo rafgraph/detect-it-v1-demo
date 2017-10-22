@@ -2,6 +2,7 @@
   "name": "detect-it-live",
   "description": "Live detection test site for detect-it",
   "scripts": {
+    "build": "webpack -p",
     "start": "webpack -d --watch & live-server --entry-file=index.html"
   },
   "repository": {
