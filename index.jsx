@@ -19,13 +19,13 @@ function App() {
     <div style={styles.app}>
       <div style={styles.versionNote}>
         Note: this is the live test for{' '}
-        <a href="https://github.com/rafrex/detect-it/tree/v1.1.0">Detect It v1</a>,{' '}
+        <a href="https://github.com/rafgraph/detect-it/tree/v1.1.0">Detect It v1</a>,{' '}
         which includes Pointer Events, if you don't need Pointer Events detection, use the{' '}
-        <a href="https://github.com/rafrex/detect-it">latest version of Detect It</a>.
+        <a href="https://github.com/rafgraph/detect-it">latest version of Detect It</a>.
       </div>
 
       <h1 id="detect-it" style={styles.h1}>Detect It &#8212; Live Detection Test</h1>
-      <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-it/tree/v1.1.0" target="_blank">https://github.com/rafrex/detect-it/tree/v1.1.0</a></div>
+      <div style={styles.repoLink}><a href="https://github.com/rafgraph/detect-it/tree/v1.1.0" target="_blank">https://github.com/rafgraph/detect-it/tree/v1.1.0</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('deviceType')}
@@ -41,7 +41,7 @@ function App() {
 
 
       <h2 id="detect-hover" style={styles.h2}>Detect Hover</h2>
-      <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-hover" target="_blank">https://github.com/rafrex/detect-hover</a></div>
+      <div style={styles.repoLink}><a href="https://github.com/rafgraph/detect-hover" target="_blank">https://github.com/rafgraph/detect-hover</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('hover', 'detectHover')}
@@ -52,7 +52,7 @@ function App() {
       </div>
 
       <h2 id="detect-pointer" style={styles.h2}>Detect Pointer</h2>
-      <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-pointer" target="_blank">https://github.com/rafrex/detect-pointer</a></div>
+      <div style={styles.repoLink}><a href="https://github.com/rafgraph/detect-pointer" target="_blank">https://github.com/rafgraph/detect-pointer</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('fine', 'detectPointer')}
@@ -65,7 +65,7 @@ function App() {
       </div>
 
       <h2 id="detect-touch-events" style={styles.h2}>Detect Touch Events</h2>
-      <div style={styles.repoLink}><a href="https://github.com/rafrex/detect-touch-events" target="_blank">https://github.com/rafrex/detect-touch-events</a></div>
+      <div style={styles.repoLink}><a href="https://github.com/rafgraph/detect-touch-events" target="_blank">https://github.com/rafgraph/detect-touch-events</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('hasApi', 'detectTouchEvents')}
@@ -74,7 +74,7 @@ function App() {
       </div>
 
       <h2 id="detect-pointer-events" style={styles.h2}>Detect Pointer Events</h2>
-      <div style={styles.repoLink}><a className="test" href="https://github.com/rafrex/detect-pointer-events" target="_blank">https://github.com/rafrex/detect-pointer-events</a></div>
+      <div style={styles.repoLink}><a className="test" href="https://github.com/rafgraph/detect-pointer-events" target="_blank">https://github.com/rafgraph/detect-pointer-events</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('hasApi', 'detectPointerEvents')}
@@ -85,14 +85,13 @@ function App() {
       </div>
 
       <h2 id="detect-passive-events" style={styles.h2}>Detect Passive Events</h2>
-      <div style={styles.repoLink}><a className="test" href="https://github.com/rafrex/detect-passive-events" target="_blank">https://github.com/rafrex/detect-passive-events</a></div>
+      <div style={styles.repoLink}><a className="test" href="https://github.com/rafgraph/detect-passive-events" target="_blank">https://github.com/rafgraph/detect-passive-events</a></div>
       <div style={styles.code}>
         <div style={styles.detects}>
           {testResult('hasSupport', 'detectPassiveEvents')}
         </div>
       </div>
 
-      <div style={styles.creditLink}><a className="extended-link" href="http://www.rafaelpedicini.com" target="_blank">Code and concept by <span>Rafael Pedicini</span></a></div>
     </div>
   );
 }
